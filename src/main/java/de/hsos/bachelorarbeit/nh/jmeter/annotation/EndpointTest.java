@@ -1,4 +1,4 @@
-package de.hsos.bachelorarbeit.nh.jmeter.annotaion;
+package de.hsos.bachelorarbeit.nh.jmeter.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

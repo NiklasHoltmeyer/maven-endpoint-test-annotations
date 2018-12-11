@@ -26,6 +26,12 @@ public @interface EndpointTest {
     Parameter[] parameters() default {};
 
     /**
+     * Example: {"id":"1"}
+     * @return Payload
+     */
+    String payLoad() default "";
+
+    /**
      * @return Times the Request should be send
      */
     int loops() default 1;

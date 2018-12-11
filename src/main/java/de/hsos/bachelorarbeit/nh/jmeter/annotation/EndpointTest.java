@@ -54,8 +54,9 @@ public @interface EndpointTest {
     /**
      * Priority / Order of Test
      *     -n -{@literal >} -1 -{@literal >} 0 -{@literal >} 1 -{@literal >} n
+     * Default 0
      *
      * @return Order of the Test
      */
-    int priority() default 0;
+    int order() default 0;
 }

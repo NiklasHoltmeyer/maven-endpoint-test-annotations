@@ -6,11 +6,6 @@ import de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Assertions.Size.Size
 
 public @interface Response {
     /**
-     * @return expected HTTP-Status
-     */
-    int httpStatus() default 200;
-
-    /**
      * Example Expected-Response {"id"=10, "name"="random"}
      * jsonAssertions = {{@literal @}{@link JSONAssertion}(path="$.id", expectedValue="10"), {@literal @}{@link JSONAssertion}(path="$.name", expectedValue="random")}
      *

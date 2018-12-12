@@ -1,1 +1,6 @@
 de.hsos.bachelorarbeit.nh.jmeter.annotation
+de.hsos.bachelorarbeit.nh.jmeter.annotation.Request
+de.hsos.bachelorarbeit.nh.jmeter.annotation.Response
+de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Assertions.JSON
+de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Assertions.Response
+de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Assertions.Size

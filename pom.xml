@@ -7,7 +7,9 @@
 
   <groupId>com.github.NiklasHoltmeyer</groupId>
   <artifactId>maven-jmeter-test-annotations</artifactId>
-  <version>3.2.2</version>
+  <!--<groupId>dev.local.test</groupId>
+  <artifactId>local.annos</artifactId>-->
+  <version>3.2.3</version>
   <packaging>jar</packaging>
 
   <name>maven-jmeter-test-annotations-maven-plugin Maven Plugin</name>

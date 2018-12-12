@@ -1,4 +1,4 @@
-package de.hsos.bachelorarbeit.nh.jmeter.annotation;
+package de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Assertions.JSON;
 
 /**
  * EndpointTest - JSON - Assertion
@@ -11,7 +11,7 @@ public @interface JSONAssertion {
      *
      * @return Path to JSON-Ressource
      */
-    public String path() ;
+    public String path();
 
     /**
      * Expected Value of Ressource
@@ -21,5 +21,10 @@ public @interface JSONAssertion {
      *
      * @return which Value was Expected
      */
-    public String expectedValue() ;
+    public String expectedValue() default "";
+
+    public boolean jsonValidation() default true;
+    public boolean expectNull() default false;
+    public boolean invert() default false;
+    public boolean regex() default false;
 }

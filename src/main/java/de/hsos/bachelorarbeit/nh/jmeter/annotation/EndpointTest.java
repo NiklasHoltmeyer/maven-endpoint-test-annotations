@@ -1,5 +1,8 @@
 package de.hsos.bachelorarbeit.nh.jmeter.annotation;
 
+import de.hsos.bachelorarbeit.nh.jmeter.annotation.Request.Request;
+import de.hsos.bachelorarbeit.nh.jmeter.annotation.Response.Response;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -13,49 +16,16 @@ import java.lang.annotation.Target;
 @Target(ElementType.METHOD)
 public @interface EndpointTest {
     /**
-     * @return expected HTTP-Status
-     */
-    int httpStatus() default 200;
-
-    /**
-     * Path: /commend/{userId}/{date}
-     * parameters = {{@literal @}{@link Parameter}(key=userId, value="1"),{@literal @}{@link Parameter}(key=date, value="10-10-2010"), ...}
      *
-     * @return Parameters
+     * @return {@link Request}
      */
-    Parameter[] parameters() default {};
+    Request request() default @Request;
 
     /**
-     * Example: {"id":"1"}
-     * @return Payload
-     */
-    String payLoad() default "";
-
-    /**
-     * @return Times the Request should be send
-     */
-    int loops() default 1;
-
-    /**
-     * Threads / RampUpTime = Request / second
      *
-     * @return Amount of Threads
+     * @return {@link Response}
      */
-    int threads() default 1;
-    /**
-     * Threads / RampUpTime = Request / second
-     *
-     * @return Time the Threads need to RampUp
-     */
-    int rampUpTime() default 1;
-
-    /**
-     * Example Expected-Response {"id"=10, "name"="random"}
-     * jsonAssertions = {{@literal @}{@link JSONAssertion}(path="$.id", expectedValue="10"), {@literal @}{@link JSONAssertion}(path="$.name", expectedValue="random")}
-     *
-     * @return JSONAssertion[] @see {@link JSONAssertion}
-     */
-    JSONAssertion[] jsonAssertions() default {};
+    Response response() default @Response;
 
     /**
      * Priority / Order of Test

@@ -1,5 +1,10 @@
-package de.hsos.bachelorarbeit.nh.jmeter.annotation;
+package de.hsos.bachelorarbeit.nh.jmeter.annotation.Request;
 
+/**
+ * URL-Parameter:
+ * /x/{y}/{z}
+ * Parameter: y, z
+ */
 public @interface Parameter{
     /**
      * URL: /user/{id} <p> Key: id

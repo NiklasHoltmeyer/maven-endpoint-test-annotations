@@ -6,7 +6,11 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-
+.idea/*
+.idea/
+.idea/
+.idea
+maven-jmeter-test-annotations.iml
 # eclipse git ignore
 # https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
 .metadata

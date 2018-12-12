@@ -23,6 +23,6 @@ public @interface Response {
      *
      * @return {@link SizeAssertion}
      */
-    SizeAssertion sizeAssertion() default @SizeAssertion;
-    ResponseAssertion responseAssertion() default @ResponseAssertion;
+    SizeAssertion[] sizeAssertion() default {};
+    ResponseAssertion[] responseAssertion() default {};
 }

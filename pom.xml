@@ -14,10 +14,10 @@
   <version>3.2.3cuaaa</version>
   <packaging>jar</packaging>
 
-  <name>maven-jmeter-test-annotations-maven-plugin Maven Plugin</name>
+  <name>maven-endpoint-test-annotations-maven-plugin Maven Plugin</name>
 
 
-  <url>https://github.com/NiklasHoltmeyer/maven-jmeter-test-annotations</url>
+  <url>https://github.com/NiklasHoltmeyer/maven-endpoint-test-annotations</url>
 
   <prerequisites>
     <maven>${maven.version}</maven>

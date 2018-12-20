@@ -11,7 +11,7 @@
   <groupId>dev.local.test</groupId>
   <artifactId>local.annnoooos</artifactId>
   -->
-  <version>3.2.3cua</version>
+  <version>3.2.3cuaa</version>
   <packaging>jar</packaging>
 
   <name>maven-jmeter-test-annotations-maven-plugin Maven Plugin</name>

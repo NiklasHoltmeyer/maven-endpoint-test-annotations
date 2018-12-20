@@ -6,12 +6,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.github.NiklasHoltmeyer</groupId>
-  <artifactId>maven-jmeter-test-annotations</artifactId>
+  <artifactId>maven-endpoint-test-annotations</artifactId>
   <!--
   <groupId>dev.local.test</groupId>
   <artifactId>local.annnoooos</artifactId>
   -->
-  <version>3.2.3cua</version>
+  <version>3.2.3cuaaa</version>
   <packaging>jar</packaging>
 
   <name>maven-jmeter-test-annotations-maven-plugin Maven Plugin</name>

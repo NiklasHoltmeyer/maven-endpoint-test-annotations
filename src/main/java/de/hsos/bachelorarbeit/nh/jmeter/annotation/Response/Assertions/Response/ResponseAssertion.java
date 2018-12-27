@@ -10,5 +10,4 @@ public @interface ResponseAssertion {
      */
     TestField testField() default TestField.response_code;
     boolean assumeSuccess() default false;
-    boolean ignoreStatus() default false;
 }

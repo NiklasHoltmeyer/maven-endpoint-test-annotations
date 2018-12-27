@@ -11,7 +11,7 @@
   <groupId>dev.local.test</groupId>
   <artifactId>local.annnoooos</artifactId>
   -->
-  <version>3.2.3cuaaa</version>
+  <version>3.2.3cuaaaa</version>
   <packaging>jar</packaging>
 
   <name>maven-endpoint-test-annotations-maven-plugin Maven Plugin</name>
